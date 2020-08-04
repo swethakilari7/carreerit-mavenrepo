@@ -27,14 +27,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://localhost:8081/nexus/repository/nexus/</url>
+            <id>weekend</id>
+            <name>Nexus-Jenkins-Release</name>
+            <url>http://3.236.77.58:8081/repository/Nexus-Jenkins-Release/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://localhost:8081/nexus/repository/samplesnapshot/</url>
+            <id>weekend</id>
+            <name>Nexus-Jenkins-Snapshot</name>
+            <url>http://3.236.77.58:8081/repository/Nexus-Jenkins-Snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
